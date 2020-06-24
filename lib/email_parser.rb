@@ -3,7 +3,7 @@ class EmailAddressParser
   attr_accessor :emails
 
   def initialize(emails)
-    @email = email
+    @emails = emails
   end
 
   def parse
